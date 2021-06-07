@@ -1,0 +1,58 @@
+@import"../utils/variables";
+
+.fon-address-pictures{
+    background: $address-tit-color;
+    margin:0px auto;
+    padding: 94px 0px 94px 0px;
+    
+}
+.list-info{
+    display: flex;
+}
+.list-info__item{
+    margin-right: 30px;
+    &::before{
+        display: inline-block;
+        content: "";
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+        background-color: #F5F4FA;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+    }
+    &--pictures:nth-child(1)::before{
+        background-image: url(../img/antenna-png.png);
+    }
+    &--pictures:nth-child(2)::before{
+        background-image: url(../img/clock-png.png);
+    }
+    &--pictures:nth-child(3)::before{
+        background-image: url(../img/diagram-png.png);
+    
+    }
+    &--pictures:nth-child(4)::before{
+        background-image: url(../img/astronaut-png.png);
+    }
+    &:last-child{
+        margin-right: 0px;
+    }
+}
+
+.list-info__title{
+    color: $title-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.list-info__parag{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $p-color;
+}

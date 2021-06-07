@@ -1,0 +1,44 @@
+@import"../utils/variables";
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
+.info-footer{
+    display: flex;
+    align-items: baseline;
+    
+ }
+.data{
+    margin-right: 70px;
+ }
+ .data__address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $address-tit-color;
+    margin-top: 20px;
+}
+
+.data__info{
+    display: block;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-icon{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $address-tit-color;
+    margin-bottom: 20px;
+}
